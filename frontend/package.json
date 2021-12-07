@@ -34,7 +34,7 @@
     "webpack": "^4.44.2"
   },
   "scripts": {
-    "start": "cross-env REACT_APP_BACKEND_URL='http://localhost:7860/' craco start",
+    "start": "cross-env REACT_APP_BACKEND_URL='https://localhost:7860/' craco start",
     "format": "prettier-eslint --write '**/*.js*'",
     "build": "cross-env REACT_APP_BACKEND_URL='' GENERATE_SOURCEMAP=false craco build",
     "eject": "react-scripts eject"
